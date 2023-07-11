@@ -10,31 +10,31 @@ def index():
     return render_template("heart.html")
 
 @app.route('/test1') 
-def test():
+def test1():
     return render_template("adorable_one.html")
     
 @app.route('/test2') 
-def test():
+def test2():
     return render_template("adorable_two.html")
     
 @app.route('/test3') 
-def test():
+def test3():
     return render_template("adorable_three.html")
 
 @app.route('/test4') 
-def test():
+def test4():
     return render_template("adorable_four.html")
 
 @app.route('/test5') 
-def test():
+def test5():
     return render_template("adorable_five.html")
 
 @app.route('/test6') 
-def test():
+def test6():
     return render_template("adorable_six.html")
 
 @app.route('/test7') 
-def test():
+def test7():
     return render_template("adorable_seven.html")
     
 @app.route('/case')
