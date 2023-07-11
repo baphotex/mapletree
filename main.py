@@ -17,7 +17,7 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
 @app.route('/', methods =["GET", "POST"])
 def index():
     if request.method == "GET":
-        return render_template("maple_home.html", response = '<b> Cute </b>')
+        return render_template("maple_home.html", response = 'Cute')
     start = request.form.get("startep")
     end = request.form.get("endep")
     try: 
