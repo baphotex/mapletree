@@ -22,7 +22,7 @@ def test():
     return render_template("adorable_three.html")
 
 @app.route('/test4') 
-def test()
+def test():
     return render_template("adorable_four.html")
 
 @app.route('/test5') 
