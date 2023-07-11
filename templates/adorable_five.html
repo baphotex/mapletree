@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theme 40</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+margin: 0;
+background-color: #9e9abd;
+font-family: 'Questrial', sans-serif;
+color: #454257;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+width: 80%;
+gap: 0;
+margin-top: -20px;
+}
+
+.headerwrapper{
+height: 500px;
+display: flex;
+flex-direction: row;
+position: relative;
+top: 20px;
+}
+
+.header{
+flex-basis: 100%;
+background-image: url('https://i.imgur.com/M9cuZIx.png');
+background-position: bottom left;
+background-repeat: no-repeat;
+display: flex;
+}
+
+.header h1{
+align-self: center;
+margin: 0 auto;
+color: #9e9abd;
+font-size: 90px;
+font-family: 'Water Brush', serif;
+text-shadow: 0px 0px 10px #FFF;
+}
+
+.boxwrapper{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+padding-left: 1rem;
+padding-bottom: 1rem;
+position: relative;
+z-index: 1;
+}
+
+.sidebars{
+min-width: 100px;
+flex-basis: 15%;
+margin-top: 40px;
+}
+
+.sideheaders{
+background-color: #cccade;
+border: 1px solid #F1ECFF;
+box-shadow: 0px 0px 5px #F1ECFF;
+font-weight: normal;
+color: #6A6788;
+font-size: 16px;
+}
+
+.middleheaders{
+background-color: #cccade;
+border: 1px solid #cccade;
+box-shadow: 0px 0px 5px #cccade;
+font-weight: normal;
+color: #6A6788;
+font-size: 18px;
+border-radius: 15px 15px 0px 0px;
+margin-bottom: 5px;
+}
+
+.sidebox{
+padding: 8px 3px 8px 3px;
+font-size: 13px;
+color: #cccade;
+letter-spacing: 1px;
+}
+
+.sidebars ul{
+padding: 0;
+}
+
+.sidebars li{
+list-style-type: none;
+border-bottom: 1px solid #cccade;
+margin-bottom: 6px;
+}
+
+.sidebars a{
+color: #cccade;
+}
+
+.sidebars a:visited{
+color: #cccade;
+}
+
+.sidebars a:hover{
+text-shadow: 0px 0px 5px #F1ECFF;
+font-style: normal;
+}
+
+.sidebars a:active{
+font-style: italic;
+text-shadow: 0px 0px 5px #F1ECFF;
+}
+
+.main{
+flex-basis: 70%;
+min-width: 300px;
+padding: 20px;
+background-color: #F1ECFF;
+border: 1px solid #F1ECFF;
+box-shadow: 0px 0px 10px #F1ECFF;
+border-radius: 65px 65px 0px 0px;
+font-size: 14px;
+}
+
+.section{
+margin-bottom: 15px;
+}
+
+#credit a{
+color: #cccade;
+}
+
+a{
+color: #7992B8;
+text-decoration: none;
+}
+
+a:visited{
+color: #7992B8;
+}
+
+a:hover{
+font-style: italic;
+}
+
+a:active{
+font-style: italic;
+}
+
+::-webkit-scrollbar{
+width: 8px; 
+}
+    
+::-webkit-scrollbar-track{
+background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+background-color: #cccade;
+}
+
+#credit{
+font-size: 12px;
+position: fixed;
+bottom: 0;
+right: 0;
+}
+
+@media(max-width:685px){
+.headerwrapper{
+height: 268px;
+position: relative;
+top: 0px;
+}
+.header{
+background-size: 100%;
+background-position: top left;
+}
+.header h1{
+font-size: 40px;
+align-self: center;
+padding-left: 1em;
+}
+.container{
+width: 100%;
+margin-top: 0;
+}
+.boxwrapper{
+display: flex;
+flex-direction: column;
+padding-left: 1em;
+padding-right: 1em;
+}
+.boxes{
+min-width: 100%;
+}
+.sidebox{
+text-align: center;
+}
+.sidebars{
+margin-top: 0;
+}
+.sidebars li{
+display: inline;
+margin: 0;
+border: none;
+}
+}
+
+@media(max-width:820px){
+.header h1{
+padding-left: 1.5em;
+}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HEADER -->
+<div class="headerwrapper">
+<div class="header">
+<h1>Title Here</h1>
+</div>
+</div>
+
+<div class="boxwrapper">
+
+<!-- SIDEBAR LEFT -->
+<div class="boxes sidebar sidebars">
+
+<!-- NAV -->
+<div class="nav">
+<h3 class="sideheaders">Navigate</h3>
+<div class="sidebox">
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Gallery</a></li>
+<li><a href="">Blog</a></li>
+<li><a href="">Links</a></li>
+<li><a href="">Contact</a></li>
+<li><a href="">Misc</a></li>
+</ul>
+</div>
+</div>
+
+<!-- SIDEBAR LEFT BOX 2 -->
+<h3 class="sideheaders">Header</h3>
+<div class="sidebox">
+<img src="https://i.imgur.com/CfRIasW.gif" style="opacity:0.9;">
+<img src="https://i.imgur.com/e58oG63.gif" style="opacity:0.9;">
+</div>
+
+<!-- SIDEBAR LEFT BOX 3 -->
+<h3 class="sideheaders">Header</h3>
+<div class="sidebox">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl est, consequat quis nibh id, vestibulum rutrum leo. Nam dapibus imperdiet mollis.</p>
+</div>
+
+</div>
+
+<!-- MIDDLE BOX -->
+<div class="boxes main">
+
+<!-- SECTION 1 -->
+<div class="section">
+<h3 class="middleheaders">Header Here</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl est, consequat quis nibh id, vestibulum rutrum leo. Nam dapibus imperdiet mollis. Morbi convallis dapibus libero, scelerisque mollis turpis dignissim eget. Nunc ante risus, euismod quis aliquam vitae, volutpat nec justo. Mauris sit amet molestie enim. Proin mollis porttitor tortor. Morbi at nibh est. Suspendisse ac quam in nibh posuere maximus et ut augue. Integer volutpat nisl nec libero vestibulum, ac consectetur quam lobortis. Curabitur sagittis ut diam non vestibulum. Suspendisse et mi ut lectus hendrerit interdum sit amet ac dui. Cras tortor ex, egestas quis nulla ac, suscipit venenatis odio. Mauris faucibus nec diam nec consectetur. Nulla blandit tellus risus, sed congue arcu mollis id. Fusce sit amet ullamcorper mauris. Curabitur varius tincidunt congue.</p>
+</div>
+
+<!-- SECTION 2 -->
+<div class="section">
+<h3 class="middleheaders">Header Here</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl est, consequat quis nibh id, vestibulum rutrum leo. Nam dapibus imperdiet mollis. Morbi convallis dapibus libero, scelerisque mollis turpis dignissim eget. Nunc ante risus, euismod quis aliquam vitae, volutpat nec justo. Mauris sit amet molestie enim. Proin mollis porttitor tortor. Morbi at nibh est. Suspendisse ac quam in nibh posuere maximus et ut augue. Integer volutpat nisl nec libero vestibulum, ac consectetur quam lobortis. Curabitur sagittis ut diam non vestibulum. Suspendisse et mi ut lectus hendrerit interdum sit amet ac dui. Cras tortor ex, egestas quis nulla ac, suscipit venenatis odio. Mauris faucibus nec diam nec consectetur. Nulla blandit tellus risus, sed congue arcu mollis id. Fusce sit amet ullamcorper mauris. Curabitur varius tincidunt congue.</p>
+</div>
+
+<!-- SECTION 3 -->
+<div class="section">
+<h3 class="middleheaders">Header Here</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl est, consequat quis nibh id, vestibulum rutrum leo. Nam dapibus imperdiet mollis. Morbi convallis dapibus libero, scelerisque mollis turpis dignissim eget. Nunc ante risus, euismod quis aliquam vitae, volutpat nec justo. Mauris sit amet molestie enim. Proin mollis porttitor tortor. Morbi at nibh est. Suspendisse ac quam in nibh posuere maximus et ut augue. Integer volutpat nisl nec libero vestibulum, ac consectetur quam lobortis. Curabitur sagittis ut diam non vestibulum. Suspendisse et mi ut lectus hendrerit interdum sit amet ac dui. Cras tortor ex, egestas quis nulla ac, suscipit venenatis odio. Mauris faucibus nec diam nec consectetur. Nulla blandit tellus risus, sed congue arcu mollis id. Fusce sit amet ullamcorper mauris. Curabitur varius tincidunt congue.</p>
+</div>
+
+</div>
+
+<!-- SIDEBAR RIGHT -->
+<div class="boxes sidebar2 sidebars">
+
+<!-- SIDEBAR RIGHT BOX 1 -->
+<h3 class="sideheaders">Header</h3>
+<div class="sidebox">
+<img src="https://i.imgur.com/XxzLQbJ.jpg" style="opacity:0.9;">
+<p>Morbi convallis dapibus libero, scelerisque mollis turpis dignissim eget.</p>
+</div>
+
+<!-- SIDEBAR RIGHT BOX 2 -->
+<h3 class="sideheaders">Header</h3>
+<div class="sidebox">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl est, consequat quis nibh id, vestibulum rutrum leo. Nam dapibus imperdiet mollis.</p>
+</div>
+
+<!-- SIDEBAR RIGHT BOX 3 -->
+<h3 class="sideheaders">Header</h3>
+<div class="sidebox">
+<img src="https://i.imgur.com/CfRIasW.gif" style="opacity:0.9;">
+<img src="https://i.imgur.com/e58oG63.gif" style="opacity:0.9;">
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
+
+</body>
+
+</html>
