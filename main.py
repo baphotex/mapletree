@@ -27,6 +27,7 @@ def index():
             string = "Uh oh! Those weren't the right kind of numbers :(" 
         return render_template("maple_home.html", response = string)
     return render_template("maple_home.html", response = '')
+    
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory('maple.ico')
