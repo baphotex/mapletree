@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-app.config['FAVICON'] = '/maple.ico'
+app.config['FAVICON'] = 'maple.ico'
 
 @app.route('/')
 def index():
