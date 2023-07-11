@@ -5,7 +5,7 @@ app = Flask(__name__,  static_folder='static')
 
 @app.route('/')
 def index():
-    return render_template("home_cute.html")
+    return render_template("home_egg.html")
 
 @app.route('/favicon.ico')
 def favicon():
