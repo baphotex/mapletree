@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     try:
-        with open("main.html") as f:
+        with open("home.html") as f:
             html = f.read()
         return html
     except Exception as e:
