@@ -10,6 +10,10 @@ def index():
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory('maple.ico')
+
+@app.route('/miko')
+def mix():
+    return render_template("mix.html") 
     
 @app.route('/bio') 
 def bio():
