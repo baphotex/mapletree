@@ -16,17 +16,17 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
 
 @app.route('/', methods =["GET", "POST"])
 def index():
-    if request.method == "POST":
-        start = request.form["startep"]
-        end = request.form["endep"] 
-        try: 
-            start = int(start)
-            end = int(end)
-            string = ep(start,end) 
-        except TypeError as e: 
-            string = "Uh oh! Those weren't the right kind of numbers :(" 
-        return render_template("maple_home.html", response = string)
-    return render_template("maple_home.html", response = 'Cute')
+    if request.method == "GET":
+        return render_template("maple_home.html", response = 'Cute')
+    start = request.form["startep"]
+    end = request.form["endep"] 
+    try: 
+        start = int(start)
+        end = int(end)
+        string = ep(start,end) 
+    except TypeError as e: 
+        string = "Uh oh! Those weren't the right kind of numbers :(" 
+    return render_template("maple_home.html", response = string)
     
 @app.route('/favicon.ico')
 def favicon():
