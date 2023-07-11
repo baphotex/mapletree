@@ -10,11 +10,11 @@ def index():
     return render_template("home_cute.html")
 
 @app.route('/bio') 
-def index():
+def bio():
     return render_template("bio_cute.html") 
 
 @app.route('/blog') 
-def index():
+def blog():
     return render_template("blog_cute.html") 
  
 @app.route('/test4') 
