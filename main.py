@@ -17,8 +17,8 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
 @app.route('/', methods =["GET", "POST"])
 def index():
     if request.method == "POST":
-        start = request.form.get("startep")
-        end = request.form.get("endep") 
+        start = request.form["startep"]
+        end = request.form["endep"] 
         try: 
             start = int(start)
             end = int(end)
