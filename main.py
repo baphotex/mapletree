@@ -8,15 +8,35 @@ app.config['FAVICON'] = 'maple.ico'
 @app.route('/')
 def index():
     return render_template("heart.html")
-    #try:
-    #    with open("home.html") as f:
-    #        html = f.read()
-    #    return html
-    #except Exception as e:
-    #    return str(e)
-    #return "Sweet" 
-    #return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
 
+@app.route('/test1') 
+def test()
+    return render_template("adorable_one.html")
+    
+@app.route('/test2') 
+def test()
+    return render_template("adorable_two.html")
+    
+@app.route('/test3') 
+def test()
+    return render_template("adorable_three.html")
+
+@app.route('/test4') 
+def test()
+    return render_template("adorable_four.html")
+
+@app.route('/test5') 
+def test()
+    return render_template("adorable_five.html")
+
+@app.route('/test6') 
+def test()
+    return render_template("adorable_six.html")
+
+@app.route('/test7') 
+def test()
+    return render_template("adorable_seven.html")
+    
 @app.route('/case')
 def case():
     with open("temp.html") as f:
