@@ -7,7 +7,7 @@ app.config['FAVICON'] = '/maple.ico'
 
 @app.route('/')
 def index():
-    return render_template("mika.html")
+    return render_template("sweet.html")
     #try:
     #    with open("home.html") as f:
     #        html = f.read()
