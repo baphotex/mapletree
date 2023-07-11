@@ -3,8 +3,6 @@ import os
 
 app = Flask(__name__,  static_folder='static')
 
-app.config['FAVICON'] = 'maple.ico'
-
 @app.route('/')
 def index():
     return render_template("home_cute.html")
