@@ -81,6 +81,7 @@ body {
 	color: white;
 	border-style: outset;
 	border-color: #0066A2;
+	font: monospace; 
 	height: 50px;
 	width: 100px;
 	text-shadow: none;
