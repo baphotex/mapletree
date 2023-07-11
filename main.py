@@ -13,7 +13,7 @@ def favicon():
 
 @app.route('/miko')
 def mix():
-    return render_template("home_egg.html") 
+    return render_template("garbage.html") 
     
 @app.route('/bio') 
 def bio():
