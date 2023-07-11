@@ -9,18 +9,14 @@ app.config['FAVICON'] = 'maple.ico'
 def index():
     return render_template("home_cute.html")
 
-@app.route('/test1') 
-def test1():
-    return render_template("adorable_one.html")
-    
-@app.route('/test2') 
-def test2():
-    return render_template("adorable_two.html")
-    
-@app.route('/test3') 
-def test3():
-    return render_template("adorable_three.html")
+@app.route('/bio') 
+def index():
+    return render_template("bio_cute.html") 
 
+@app.route('/blog') 
+def index():
+    return render_template("blog_cute.html") 
+ 
 @app.route('/test4') 
 def test4():
     return render_template("adorable_four.html")
