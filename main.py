@@ -7,10 +7,10 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
     y = list(range(start,end+1))
     z = len(y)
     string = (
-    f"There are {z} episodes left."
-    f"It will take {z*24/60} to {z*30/60} hours to finish watching."
-    f"It will take {round(z*24/60/24,2)} to {round(z*30/60/24,2)} days to finish watching"
-    f"Based on current habits, it will take {round(z/high,2)} to {round(z/low,2)} days to finish."
+    f"There are <strong> {z} </strong> episodes left.<br>"
+    f"It will take <strong>{z*24/60}</strong> to  <strong> {z*30/60} </strong> hours to finish watching.<br>"
+    f"It will take <strong>{round(z*24/60/24,2)}</strong> to <strong>{round(z*30/60/24,2)}<\strong> days to finish watching. <br>"
+    f"Based on current habits, it will take <strong>{round(z/high,2)}</strong> to <strong>{round(z/low,2)}</strong> days to finish.<br>"
     ) 
     return string 
 
