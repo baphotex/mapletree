@@ -76,3 +76,12 @@ body {
   margin: 8px 0;
   box-sizing: border-box;
 }
+.form-submit-button {
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+	text-shadow: none;
+}
