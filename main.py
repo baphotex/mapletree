@@ -6,13 +6,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("home.html")
-    try:
-        with open("home.html") as f:
-            html = f.read()
-        return html
-    except Exception as e:
-        return str(e)
+    return render_template("love.html")
+    #try:
+    #    with open("home.html") as f:
+    #        html = f.read()
+    #    return html
+    #except Exception as e:
+    #    return str(e)
     #return "Sweet" 
     #return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
 
