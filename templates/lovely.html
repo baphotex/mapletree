@@ -1,0 +1,239 @@
+GLOBAL_HEAD<=
+<title>title</title>
+<link href="https://i.imgur.com/gJroawV.png" rel="icon" type="image/x-icon">
+
+<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="http://hyacinth.neocities.org/fonts.css">
+<link rel="stylesheet" href="http://tif.neocities.org/fonts/4.css">
+<link rel="stylesheet" href="http://tif.neocities.org/fonts/2.css">
+<link rel="stylesheet" href="http://tif.neocities.org/fonts/5.css">
+
+
+<style>
+
+/* layout by moosh &&& feel free if you have any issues, questions, or just need help with whatever!! */
+
+/* background */
+body {background: rgba(246, 245, 245, 1); background-image:url(http://i.imgur.com/eMGuBn6.png), url(https://i.imgur.com/3OfmEXV.png);
+background-repeat: repeat, repeat-x;
+background-attachment: fixed;
+background-position: bottom left;
+overflow-x: hidden; margin-top: 0px; margin-top:-5px;}
+td{font-family: consolas; text-transform: uppercase; font-size: 8px; line-height: 10px; color: #777; letter-spacing:1px;} tr{text-align:justify;} table{margin-bottom: -5px;}  b{font-weight: normal;}
+
+/* cursors */
+body {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;} a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;}
+
+/* link colours */
+a{color: #9AC1FC; text-decoration: none;}
+a:hover{color: transparent; text-decoration: none;}
+
+/* entrybox */
+.entrybox {background: url(http://i.imgur.com/pjETXdA.png); box-shadow: 0px 0px 1px rgba(215, 215, 215, 1); border-top: 3px solid rgba(235, 181, 230, 0.7); border-left: 3px solid rgba(235, 181, 230, 0.7); border-bottom: 1px solid rgba(255, 204, 232, 0.7); border-right: 1px solid rgba(255, 204, 232, 0.7);}
+
+/* subject line */
+p table table td.caption{border-top: 0; border-left: 0; border-right: 0; border-bottom: 1px solid rgba(201, 247, 244, 0.3); padding: 0; font-family: print; font-size: 18px; line-height: 24px; text-transform: lowercase; letter-spacing: 0px; word-spacing: 1px; color: #222; text-shadow:1px 1px 1px rgba(0, 0, 0, 0.15); font-weight: 300;}
+
+/* namefield. */
+.shadowed td div {visibility: hidden;}
+
+/* currents (mood, music) and bottom banner navigation links */
+table table table td.meta {font-family: source code pro; color:; font-size: 7px;  letter-spacing: 1px; line-height:7px; text-transform: uppercase; text-shadow: #000000}
+
+/* comments */
+.comments {font-family:fany; font-size: 15px; line-height:16px; text-transform: uppercase;}
+
+/* top banner main navigation links */
+table table table table td.meta { font-size: 8px; line-height: 8px; letter-spacing: 1px; font-family: arial narrow; text-transform: uppercase; }
+
+/* date line */
+.date {color:#333; display: block; text-align: left; font-family: consolas; font-size: 6px; letter-spacing: 1; line-height: 5px; padding-bottom: 3; padding-top: 0;}
+.date, a.index {visibility:visible !important;} .dated{display:none;}
+
+/* MOVES DATES TO NEW LINE */
+.entrybox td.index, .nein{display:none; color:#909090;}
+
+/* NEW DATES */
+.dates {color: rgba(52, 51, 51, 0.5); font-family: hind; font-size: 8px; letter-spacing: 1px; line-height: 0px; text-shadow: 0px 0px 1px #fff; text-transform: uppercase; padding-left: 25px; }
+
+/* custom date and time */
+.index2 {font-family: arial; text-transform:uppercase; font-size: 6pt; letter-spacing: 1px; text-align: left; color: #515151; padding-left: 15px;}
+.entrybox td.index, .index3 {display: none;}
+
+/* all misc little text */
+p.index, tr.caption, .date {font-family: hind; font-size:8px; line-height:9px; letter-spacing: 1px; text-transform:uppercase;} 
+
+.index, .meta {font-family: hind; font-size: 8px; text-transform: uppercase; line-height: 8px; padding: 0px; letter-spacing: +1.5px;}
+table table table td.meta {font-family:hind; font-size:0px;line-height:0px;} table table table td.meta a {font-size:8px;letter-spacing:1px;line-height: 8px;margin-top:-4px;} 
+
+/* hides navigation text */
+.index, table table table td.meta {text-transform:uppercase;font-family: consolas;font-size:6pt; color:#f5f1e9; text-shadow:#000000 0px 0px 0px 0px; text-transformation: uppercase;letter-spacing: 1px; line-height:0px;}
+
+
+/* hides top nav bar text */
+.entrybox td.meta {display:none; visibility:hidden;}
+.shadowed, .shadowed td.div {background: #fff;}
+
+/* icon */
+.shadowed img { display: none;}
+
+/* fp stuff */
+.index img {border-radius: 100px; height: 55px; width:55px;}
+.entrybox tr td table tr td table tr td {background: transparent;}
+a.index {color: #777; background-color: transparent;}
+.entrybox a.index font {color: #777;} 
+
+/* top banner & image */
+.shadowed {height: 50px; width: 600px; position: relative; left: 3px; margin-bottom: 2px; border: ; border-radius:; background-color: transparent;}
+
+/* :( */
+#top {top: 80px; left: 0px; visibility: visible; background: url(http://tif.neocities.org/img/bg6.png); text-align: right; position: fixed; z-index: 9; min-width: 300px; padding: 5px 12px 5px 16px; font-family: print; font-size: 15px; line-height: 16px; color: #333333; text-shadow: 1px 1px 0 rgba(0,0,0,0.3); letter-spacing: 1px; text-transform: uppercase; border-radius: 0 5px 5px 0; border-bottom: 1px solid rgba(235, 181, 230, 0.5); border-right: 1px solid rgba(235, 181, 230, 0.7); border-top: 1px solid rgba(235, 181, 230, 0.5);}
+
+.field { position: absolute; font-family: sunrise; font-size: 25px; text-transform: lowercase; width: 120px; margin: -22px -118px; text-align: right; color: rgba(252, 164, 215, 0.9); text-shadow: 2px 1px 0px rgba(255, 255, 255, 1), 3px 2px 2px rgba(85, 85, 85, 0.7);}
+
+#float { position:fixed; visibility: visible; top: 50px; left: 65; z-index:10; text-align:justify;}
+.gif {filter: alpha; width:90px; height:90px; background: url(http://tif.neocities.org/img/bg6.png); padding: 14px; float: left; border: 1px solid rgba(235, 181, 230, 0.7); z-index: 10; margin-bottom: 5px; }
+
+
+#navi {top: 172px; left: 65px; position: fixed; visibility: visible;}
+#links {overflow: hidden; display: inline-block; font-family: print; font-size: 15px; line-height: 16px; text-align: left; letter-spacing: 1px; text-transform: uppercase; width: 105px; padding: 5px; padding-left: 9px; background: url(http://tif.neocities.org/img/bg6.png); border: 1px solid rgba(235, 181, 230, 0.7); color: #333333; text-shadow: 1px 1px 0 rgba(0,0,0,0.3); border-radius: 3px; margin-top: 3px; }
+
+#navi2 { top: 122px; left: 203px; position: fixed; visibility: visible;}
+#links2 { overflow: hidden; display: inline-block; width: 15px; padding: 5px; background: url(http://tif.neocities.org/img/bg6.png); border: 1px solid rgba(235, 181, 230, 0.7); border-radius: 3px; margin-right: 3px; }
+
+/* hides privacy icons */
+.caption img {
+display: none;
+}
+
+/* lj icons */
+.ljuser img{display:none;}
+ 
+/* friends only and private locks */
+img[src*="img/icon_protected.gif"] {width: 0 !important; height: 0 !important; background: transparent url(http://i.imgur.com/VQezO8R.png) no-repeat !important; padding: 9px 0 0 7px !important; vertical-align:-1px !important;opacity:0.8;}
+img[src*="img/icon_private.gif"] {width: 0 !important; height: 0 !important; background: transparent url(http://i.imgur.com/jEQ6Le9.gif) no-repeat !important; padding:9px 0 0 9px !important; vertical-align:-2px !important;opacity:0.8;}
+
+/* highlighting */
+::selection {background-color:#fff; color:#000  ;}
+::-moz-selection {background-color:#fff; color: #000 ;}
+::-webkit-selection {background-color:#fff; color:#000 ;}
+
+</style>
+
+<style>
+
+table table table table .meta {visibility:hidden; position:absolute; top:1px}
+table table table table table .meta {visibility:visible; position:relative; top:1px}
+tr.caption {display:none}
+.shadowed td div {visibility:hidden; position:absolute; top:1px}
+.shadowed span#navigation img {display:inline; visibility:visible; position:relative;}
+</style>
+<=GLOBAL_HEAD
+
+LASTN_OPT_ITEMS=>2
+
+LASTN_WEBSITE<=
+
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="top"> name or title <span class="field">something<font style="font-family:fany;">*</font>here</span></div>
+
+
+<a href="/info"><img src="GIF HERE" class="gif" id="float" style="display:inline;" title="ᴘʀᴏғɪʟᴇ"></a>
+
+<div id="navi"><a href="/friends" id="links">friends <img src="https://i.imgur.com/MAW88Cy.png" align="right" style="display:inline; height: 13px;"></a></div>
+
+
+<div id="navi2"><a href="/"><img src="https://i.imgur.com/6Cg8TSj.png" id="links2" style="display:inline;" title="ᴇɴᴛʀɪᴇs"></a>
+
+<a href="CUSTOM LINK"><img src="https://i.imgur.com/nG1M6Zs.png" id="links2" style="display:inline;" title="ᴄᴜsᴛᴏᴍs"></a>
+
+<a href="TINDER POST LINK"><img src="https://i.imgur.com/7m5j2qk.png" id="links2" style="display:inline;" title="ᴛɪɴᴅᴇʀ"></a></div>
+
+<=LASTN_WEBSITE
+
+FRIENDS_WEBSITE<=
+
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="top"> name or title <span class="field">something<font style="font-family:fany;">*</font>here</span></div>
+
+
+<a href="/info"><img src="GIF HERE" class="gif" id="float" style="display:inline;" title="ᴘʀᴏғɪʟᴇ"></a>
+
+<div id="navi"><a href="/friends" id="links">friends <img src="https://i.imgur.com/MAW88Cy.png" align="right" style="display:inline; height: 13px;"></a></div>
+
+
+<div id="navi2"><a href="/"><img src="https://i.imgur.com/6Cg8TSj.png" id="links2" style="display:inline;" title="ᴇɴᴛʀɪᴇs"></a>
+
+<a href="CUSTOM LINK"><img src="https://i.imgur.com/nG1M6Zs.png" id="links2" style="display:inline;" title="ᴄᴜsᴛᴏᴍs"></a>
+
+<a href="TINDER POST LINK"><img src="https://i.imgur.com/7m5j2qk.png" id="links2" style="display:inline;" title="ᴛɪɴᴅᴇʀ"></a></div>
+
+<=FRIENDS_WEBSITE
+
+DAY_WEBSITE<=
+
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="top"> name or title <span class="field">something<font style="font-family:fany;">*</font>here</span></div>
+
+
+<a href="/info"><img src="GIF HERE" class="gif" id="float" style="display:inline;" title="ᴘʀᴏғɪʟᴇ"></a>
+
+<div id="navi"><a href="/friends" id="links">friends <img src="https://i.imgur.com/MAW88Cy.png" align="right" style="display:inline; height: 13px;"></a></div>
+
+
+<div id="navi2"><a href="/"><img src="https://i.imgur.com/6Cg8TSj.png" id="links2" style="display:inline;" title="ᴇɴᴛʀɪᴇs"></a>
+
+<a href="CUSTOM LINK"><img src="https://i.imgur.com/nG1M6Zs.png" id="links2" style="display:inline;" title="ᴄᴜsᴛᴏᴍs"></a>
+
+<a href="TINDER POST LINK"><img src="https://i.imgur.com/7m5j2qk.png" id="links2" style="display:inline;" title="ᴛɪɴᴅᴇʀ"></a></div>
+
+<=DAY_WEBSITE
+
+CALENDAR_WEBSITE<=
+
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="top"> name or title <span class="field">something<font style="font-family:fany;">*</font>here</span></div>
+
+
+<a href="/info"><img src="GIF HERE" class="gif" id="float" style="display:inline;" title="ᴘʀᴏғɪʟᴇ"></a>
+
+<div id="navi"><a href="/friends" id="links">friends <img src="https://i.imgur.com/MAW88Cy.png" align="right" style="display:inline; height: 13px;"></a></div>
+
+
+<div id="navi2"><a href="/"><img src="https://i.imgur.com/6Cg8TSj.png" id="links2" style="display:inline;" title="ᴇɴᴛʀɪᴇs"></a>
+
+<a href="CUSTOM LINK"><img src="https://i.imgur.com/nG1M6Zs.png" id="links2" style="display:inline;" title="ᴄᴜsᴛᴏᴍs"></a>
+
+<a href="TINDER POST LINK"><img src="https://i.imgur.com/7m5j2qk.png" id="links2" style="display:inline;" title="ᴛɪɴᴅᴇʀ"></a></div>
+
+<=CALENDAR_WEBSITE
+
+LASTN_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%">*</a></td></tr>
+
+FRIENDS_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%">*</a></td></tr>
+
+DAY_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%">*</a></td></tr>
+
+CALENDAR_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%">*</a></td></tr>
+
+
+LASTN_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>
+FRIENDS_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>
+DAY_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>
+CALENDAR_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>

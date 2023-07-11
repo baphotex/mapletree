@@ -1,0 +1,228 @@
+GLOBAL_HEAD<=
+<title>title</title>
+<link href="https://i.imgur.com/gJroawV.png" rel="icon" type="image/x-icon">
+
+<link href="http://fonts.googleapis.com/css?family=Hind|Work+Sans:400,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+<link href='https://cafe.neocities.org/r.css' rel='stylesheet' type='text/css'>
+<style>
+
+/* layout by moosh &&& feel free if you have any issues, questions, or just need help with whatever!! */
+
+@font-face { font-family: "opsans"; src: url('https://dl.dropboxusercontent.com/s/6t6k1zdmq4v9u8b/OpenSans-Light.ttf'); }
+
+body{background: url(http://i.imgur.com/wB4xh3T.png), linear-gradient(to bottom, #f6f5f5, #f0ecec); background-attachment: fixed; margin-top: -25px; overflow-x: hidden;}
+td{font-family: 'Work Sans', calibri, sans-serif; text-transform: none; font-size: 9px; line-height: 10px; color: #6c6c6c; letter-spacing:1px;} tr{text-align:justify;} table{margin-bottom: -5px;}  b{font-weight: normal;}
+
+/* cursors */
+body, a, a:hover {cursor:url(http://i.imgur.com/ONVDMqu.png), default;}
+
+/* link colours */
+a {-webkit-transition: all 0.8s ease;-moz-transition: all 0.8s ease;-o-transition: all 0.8s ease;text-decoration: none; color: #a364b0;} 
+a:hover{-webkit-transition: all 0.8s ease;-moz-transition: all 0.8s ease;-o-transition: all 0.8s ease;text-decoration: none; color: #c4bad3;}
+
+/* main entrybox */
+.entrybox {width: 535px; margin-left: 45px; background: rgba(255, 255, 255, 1); box-shadow: 0px 0px 3px rgba(163, 100, 176, 0.25); border-radius: 1px;}
+
+/* subject line */
+p table table td.caption {font-size: 9px; font-family: 'Work Sans', calibri, sans-serif; text-transform: uppercase; font-weight: normal; letter-spacing: 1px; color: #2a2a2a; text-shadow: #E8E9EB 0px 0px 1px; line-height: 9px; text-indent: 11px;}
+
+/* namefield. */
+.shadowed td div {visibility: hidden;}
+
+/* currents (mood, music) and bottom banner navigation links */
+table table table td.meta {font-family: source code pro; color:; font-size: 7px;  letter-spacing: 1px; line-height:7px; text-transform: uppercase; text-shadow: #000000}
+
+/* comments */
+.comments {font-size: 9px; font-family: consolas; text-transform: uppercase; font-weight: normal; letter-spacing:2px; color:#000; text-shadow: #c0c0c0 0px 0px 1px; line-height: 12px;}
+
+/* top banner main navigation links */
+table table table table td.meta { font-size: 8px; line-height: 8px; letter-spacing: 1px; font-family: arial narrow; text-transform: uppercase; }
+
+/* date line */
+.date {color:#333; display: block; text-align: left; font-family: consolas; font-size: 6px; letter-spacing: 1; line-height: 5px; padding-bottom: 3; padding-top: 0;}
+.date, a.index {visibility:visible !important;} .dated{display:none;}
+
+/* MOVES DATES TO NEW LINE */
+.entrybox td.index, .nein{display:none; color:#909090;}
+
+/* NEW DATES */
+.dates {color: rgba(52, 51, 51, 0.5); font-family: hind; font-size: 8px; letter-spacing: 1px; line-height: 0px; text-shadow: 0px 0px 1px #fff; text-transform: uppercase; padding-left: 25px; }
+
+/* custom date and time */
+.index2 {font-family: arial; text-transform:uppercase; font-size: 6pt; letter-spacing: 1px; text-align: left; color: #515151; padding-left: 15px;}
+.entrybox td.index, .index3 {display: none;}
+
+/* all misc little text */
+p.index, tr.caption, .date {font-family: hind; font-size:8px; line-height:9px; letter-spacing: 1px; text-transform:uppercase;} 
+
+.index, .meta {font-family: hind; font-size: 8px; text-transform: uppercase; line-height: 8px; padding: 0px; letter-spacing: +1.5px;}
+table table table td.meta {font-family:hind; font-size:0px;line-height:0px;} table table table td.meta a {font-size:8px;letter-spacing:1px;line-height: 8px;margin-top:-4px;} 
+
+/* hides navigation text */
+.index, table table table td.meta {text-transform:uppercase;font-family: consolas;font-size:6pt; color:#f5f1e9; text-shadow:#000000 0px 0px 0px 0px; text-transformation: uppercase;letter-spacing: 1px; line-height:0px;}
+
+/* hides top nav bar text */
+.entrybox td.meta {display:none; visibility:hidden;}
+.shadowed, .shadowed td.div {background: #fff;}
+
+/* icon */
+.shadowed img { display: none;}
+
+/* fp stuff */
+.index img {border-radius: 100px; height: 55px; width:55px;}
+.entrybox tr td table tr td table tr td {background: transparent;}
+a.index {color: #777; background-color: transparent;}
+.entrybox a.index font {color: #777;} 
+
+/* top banner & image */
+.shadowed {height: 50px; width: 600px; position: relative; left: 3px; margin-bottom: 2px; border: ; border-radius:; background-color: transparent;}
+
+/* changes content before linked usernames */
+.ljuser:before {display: none;}
+
+/* the messy stuff */
+#whitebox { position: absolute; visibility: visible; top: 89px; right: 50%; margin-right: 282px; z-index:10; text-align:justify; background-color: rgba(255, 255, 255, 0.98); border-width: 44px 0 0 0; border-style: solid;
+    -webkit-border-image: url(https://i.imgur.com/CzHfrUv.png) 45;
+    -moz-border-image: url(https://i.imgur.com/CzHfrUv.png) 45; 
+    -o-border-image: url(https://i.imgur.com/CzHfrUv.png) 45;
+    border-image: url(https://i.imgur.com/CzHfrUv.png) 45;
+width: 185px; padding: 5px; border-radius: 5px;}
+.icon { filter: alpha; width:46px; height:46px; background-color: #fff; padding: 9px; border-radius: 100%; margin-top: -32px; z-index: 10;}
+
+#hello{position: absolute; visibility: visible; top: 114px; right: 50%; margin-right: 298px; z-index:10; text-align: center; z-index: 1000000;}
+.welcome {font-family: opsans; font-size: 8px; line-height: 26px; text-transform: uppercase; letter-spacing: 1px; word-spacing: 2px; border-bottom: 1px solid rgba(163, 100, 176, 0.65); color: #3a3a3a;}
+.title {font-family: re; font-size: 19px; line-height: 4px; text-transform: lowercase; letter-spacing: 0px; color: rgba(67, 57, 66, 0.88); text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5), 2px 1px 1px rgba(163, 100, 176, 0.55);}
+
+#navigate {position: absolute; visibility: visible; top: 171px; right: 50%; margin-right: 278px; z-index: 10; width: 197px; text-transform: uppercase;}
+
+.one{margin-top: 10px; margin-right: 6px; width: 59px; background-color: rgba(255, 255, 255, 0.9); border: 1px solid rgba(163, 100, 176, 0.55); padding: 5 15 6; text-align: center; line-height: 9px; letter-spacing: 2px; text-decoration: none; overflow: hidden; display: inline-block; font-size: 9px; font-family: calibri; color: #3a3a3a; -webkit-transition: all 0.8s ease-in;}
+.one:hover {background-color: rgba(163, 100, 176, 0.25); letter-spacing: 4px; color: #222; -webkit-transition: all 0.8s ease-in;}
+
+.two{margin-top: 10px; width: 59px; background-color: rgba(255, 255, 255, 0.9); border: 1px solid rgba(163, 100, 176, 0.55); padding: 5 15 6; text-align: center; line-height: 8px; letter-spacing: 2px; text-decoration: none; overflow: hidden; display: inline-block; font-size: 9px; font-family: calibri; color: #3a3a3a; -webkit-transition: all 0.8s ease-in;}
+.two:hover {background-color: rgba(163, 100, 176, 0.25); letter-spacing: 4px; color: #222; -webkit-transition: all 0.8s ease-in;}
+
+
+/* hides privacy icons */
+.caption img {display: none;}
+
+img[src*="img/userinfo.gif"] {width: 0 !important; height: 0 !important; background: transparent url() no-repeat !important; padding:0px 0 0 0px !important; vertical-align:0px !important;opacity:0.0;}
+img[src*="img/community.gif"] {width: 0 !important; height: 0 !important; background: transparent url() no-repeat !important; padding:0px 0 0 0px !important; vertical-align:0px !important;}
+img[src*="img/icon_protected.gif"] {width: 0 !important; height: 0 !important; background: transparent url(http://i.imgur.com/VQezO8R.png) no-repeat !important; padding: 9px 0 0 7px !important; vertical-align:-1px !important;opacity:0.0;}
+img[src*="img/icon_private.gif"] {width: 0 !important; height: 0 !important; background: transparent url(http://i.imgur.com/jEQ6Le9.gif) no-repeat !important; padding:9px 0 0 9px !important; vertical-align:-2px !important;opacity:0.0;}
+
+/* highlighting */
+::selection {background-color: rgba(254, 253, 253, 0.5); color: #777;}
+::-moz-selection {background-color:rgba(254, 253, 253, 0.5); color: #777;}
+::-webkit-selection {background-color:rgba(254, 253, 253, 0.5); color: #777;}
+
+</style>
+
+<style>
+
+table table table table .meta {visibility:hidden; position:absolute; top:1px}
+table table table table table .meta {visibility:visible; position:relative; top:1px}
+tr.caption {display:none}
+.shadowed td div {visibility:hidden; position:absolute; top:1px}
+.shadowed span#navigation img {display:inline; visibility:visible; position:relative;}
+</style>
+<=GLOBAL_HEAD
+
+LASTN_OPT_ITEMS=>2
+
+LASTN_WEBSITE<=
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="whitebox"><img src="https://i.imgur.com/CZMH0hJ.png" class="icon" align="left" style="display:inline;"></div>
+
+<div id="hello"><font class="welcome">welcome to</font><br>
+<font class="title">whatever</font></div>
+
+<div id="navigate"><a href="LINK" class="one">rules</a>
+<a href="LINK" class="two">taken</a>
+
+<br>
+
+<a href="LINK" class="one">members</a>
+<a href="LINK" class="two">extras</a></div>
+<=LASTN_WEBSITE
+
+FRIENDS_WEBSITE<=
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="whitebox"><img src="https://i.imgur.com/CZMH0hJ.png" class="icon" align="left" style="display:inline;"></div>
+
+<div id="hello"><font class="welcome">welcome to</font><br>
+<font class="title">whatever</font></div>
+
+<div id="navigate"><a href="LINK" class="one">rules</a>
+<a href="LINK" class="two">taken</a>
+
+<br>
+
+<a href="LINK" class="one">members</a>
+<a href="LINK" class="two">extras</a></div>
+<=FRIENDS_WEBSITE
+
+DAY_WEBSITE<=
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="whitebox"><img src="https://i.imgur.com/CZMH0hJ.png" class="icon" align="left" style="display:inline;"></div>
+
+<div id="hello"><font class="welcome">welcome to</font><br>
+<font class="title">whatever</font></div>
+
+<div id="navigate"><a href="LINK" class="one">rules</a>
+<a href="LINK" class="two">taken</a>
+
+<br>
+
+<a href="LINK" class="one">members</a>
+<a href="LINK" class="two">extras</a></div>
+<=DAY_WEBSITE
+
+CALENDAR_WEBSITE<=
+<tr>
+<td colspan="0" width="600">
+<table align="left" border="0" cellspacing="0" cellpadding="0">
+<tr><td></td></tr></table></td></tr>
+
+<div id="whitebox"><img src="https://i.imgur.com/CZMH0hJ.png" class="icon" align="left" style="display:inline;"></div>
+
+<div id="hello"><font class="welcome">welcome to</font><br>
+<font class="title">whatever</font></div>
+
+<div id="navigate"><a href="LINK" class="one">rules</a>
+<a href="LINK" class="two">taken</a>
+
+<br>
+
+<a href="LINK" class="one">members</a>
+<a href="LINK" class="two">extras</a></div>
+<=CALENDAR_WEBSITE
+
+LASTN_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%"><i class="lnr lnr-leaf"></i></a> </td></tr>
+
+DAY_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%"><i class="lnr lnr-leaf"></i></a> </td></tr>
+
+FRIENDS_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%"><i class="lnr lnr-leaf"></i></a> </td></tr>
+
+CALENDAR_TALK_LINKS=><tr><td align="right" valign="bottom" colspan="2" width="100%" class="comments">%%readlink%% <a href="%%urlpost%%"><i class="lnr lnr-leaf"></i></a> </td></tr>
+
+
+LASTN_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>  
+
+FRIENDS_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>
+ 
+DAY_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>  
+
+CALENDAR_TALK_READLINK=><a href="%%urlread%%">%%messagecount%%</a>

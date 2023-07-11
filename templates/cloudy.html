@@ -1,0 +1,117 @@
+GLOBAL_HEAD<=
+<title></title>
+<link rel="shortcut icon" href="">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+<style>
+/* layout by tentacool - feel free to reach out for assistance
+   you do not need to rehost any of my fonts unless you choose to */
+
+/* background */
+body {background: #C2ABC6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #EEA9AE, #FFEFF6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #EEA9AE, #FFEFF6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-position:top center;
+background-repeat:no-repeat;
+background-attachment:fixed;}
+ 
+/* font throughout */
+td{ color: font-family: arial; font-size: 11px; line-height: 12px;}
+ 
+/* aligns text */
+tr{text-align:justify;}
+ 
+/* link effects. */
+a {color: #A186A5; text-decoration: none; transition: all 0.6s ease-in-out; -o-transition-transition:  all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -moz-transition: all 0.6s ease-in-out;}
+a:hover {text-decoration: none; color: transparent; transition: all 0.6s ease-in-out; -o-transition-transition:  all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -moz-transition: all 0.6s ease-in-out;}
+
+ /* locks */
+.caption img{width: 7px;height: 7px; opacity:0.8;}
+.ljuser img {display: none;}
+.ljuser:before {content: "★";}
+
+/* removes top things */
+.shadowed img{display:none;} /* default icon */
+tr.caption {display:none} /* top left namefield */
+.shadowed td div {visibility:hidden; position:absolute; top:1px} /* namefield */
+table table table table .meta {visibility:hidden; position:absolute; top:1px} /* links under namefield */
+
+/* mood & music - to hide change display:visible to display:none */
+.entrybox td.meta {display: visible; font-family: roboto; font-size:7px; line-height:9px; text-transform: uppercase; color:#777}
+
+/* time & date - to hide change display:visible to display:none */
+.entrybox td.index {display:visible; font-family: roboto; font-size:7px; line-height:9px; text-transform: uppercase; color:#777}
+
+/* subject */
+p table table td.caption{letter-spacing: 1; color:#777; font-size: 8px; font-family: roboto; text-transform: uppercase; font-weight: 500;}
+
+/* entrybox and gradient */
+.entrybox {background: url(); background-color:#FBF9F9; 
+border-left:3px solid; border-right: 0px; border-top: 0px; border-bottom:0pxt; border-image: repeating-linear-gradient(to bottom, #C2ABC6, #A186A5) 3}
+
+/* moves entries closer together */
+table{margin-bottom: -5px;}
+ 
+/*friends page icons*/
+.index img {height:70px; width:70px; margin-bottom:7px;}
+.index {text-transform:uppercase;font-family: roboto; font-size:5pt; text-transformation: uppercase; letter-spacing: 1px;}
+.entrybox a.index font {color: #777;} 
+td{background-color:transparent;}
+
+/* comments */
+.comments {color:#777; letter-spacing: 1; text-transform: uppercase; font-size: 8px; font-family: roboto;}
+
+/* earlier/later */ 
+.meta {font-family: roboto; font-size: 7px; text-transform: uppercase; line-height: 1px; padding: 0px; letter-spacing: 1px; }
+
+/* hides viewing & navigation */
+.meta {color: transparent}
+.index {color: transparent}
+ 
+/* highlighted text */
+::selection {background-color: #FFEFF6; color: #777;}
+::-moz-selection {background-color: #FFEFF6; color: #777;}
+::-webkit-selection {background-color: #FFEFF6; color: #777;}
+
+/* sidebar */
+.lyrics {font-family: roboto; font-size: 7px; line-height:8px; letter-spacing:1px; text-transform:uppercase; text-align:justify; color:#000; font-weight:500;}
+.picture {width:225px; margin-bottom:-45px;}
+#side{position:fixed; visibility: visible; top:15px; margin-left: -580px; z-index:0; text-align:justify; width:225px;}
+
+/* top links */
+#links {position: absolute; margin-top: 10px; visibility: visible; margin-left:210px;}
+.navi a {font-size: 12px; color: #000; display: inline-block; padding: 2px; }
+</style>
+
+<=GLOBAL_HEAD
+
+FRIENDS_WEBSITE<=
+<div id="links"><span class="navi">
+<a href="/" title="entries"><span class="lnr lnr-home"></span></a>
+<a href="/profile" title="profile"><span class="lnr lnr-user"></span></a>
+<a href="/friends" title="friends"><span class="lnr lnr-heart"></span></a>
+<a href="/calendar" title="calendar"><span class="lnr lnr-calendar-full"></span></a>
+</span></div>
+
+
+<div id="side">
+<a href="/profile"><img src="https://i.imgur.com/JsWXPli.png" class="picture" style="display:inline;"></a>
+<font class="lyrics">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt, lectus quis malesuada viverra, erat velit suscipit nibh, in ultricies libero nunc in sem. Nullam a pulvinar nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras molestie mauris at ante tincidunt fermentum et condimentum justo.</font></div>
+<=FRIENDS_WEBSITE
+
+LASTN_OPT_ITEMS=>3
+
+LASTN_WEBSITE<=
+<div id="links"><span class="navi">
+<a href="/" title="entries"><span class="lnr lnr-home"></span></a>
+<a href="/profile" title="profile"><span class="lnr lnr-user"></span></a>
+<a href="/friends" title="friends"><span class="lnr lnr-heart"></span></a>
+<a href="/calendar" title="calendar"><span class="lnr lnr-calendar-full"></span></a>
+</span></div>
+
+
+<div id="side">
+<a href="/profile"><img src="https://i.imgur.com/JsWXPli.png" class="picture" style="display:inline;"></a>
+<font class="lyrics">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt, lectus quis malesuada viverra, erat velit suscipit nibh, in ultricies libero nunc in sem. Nullam a pulvinar nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras molestie mauris at ante tincidunt fermentum et condimentum justo.</font></div>
+<=LASTN_WEBSITE
