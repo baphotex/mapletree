@@ -18,8 +18,8 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
 def index():
     if request.method == "GET":
         return render_template("maple_home.html", response = 'Cute')
-    start = request.form["startep"]
-    end = request.form["endep"] 
+    start = request.form.get("startep")
+    end = request.form.get("endep")
     try: 
         start = int(start)
         end = int(end)
