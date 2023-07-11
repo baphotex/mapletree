@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    return render_template("home.html")
     try:
         with open("home.html") as f:
             html = f.read()
