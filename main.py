@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     try:
         return Flask.render_template("home.html")
-    except Exception, e:
+    except Exception as e:
         return str(e)
     #return "Sweet" 
     #return jsonify({"Choo Choo": "Welcome to your Flask app 🚅"})
