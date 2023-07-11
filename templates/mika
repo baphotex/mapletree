@@ -1,0 +1,808 @@
+<!-------------------------------------------------
+ 
+ 
+        Window — Bootstrap version (25/04/2022).
+        (code by jiko)
+        
+        ------------------------------
+        
+        RULES
+        → Read this thoroughly please, and maybe drop a small comment saying that you've read it? :'3
+        thank youu [ https://toyhou.se/~bulletins/127417.code-rules ]
+        
+        → turn OFF WYSIWYG (in display settings)
+        → turn ON Code Editor
+        
+        ------------------------------
+        
+        TIPPY TIPS
+        → insert your img links INSIDE or quotation marks!!
+        → looking for a good online code editor?  try [ https://th.circlejourney.net/# ] !
+ 
+ 
+ ------------------------------------------------->
+ <div class="mx-auto" style="font-size:95%; margin-top: 40px; max-width:1100px">
+ <!------------------------------------------------
+ 
+ 
+                 TOP HEADER
+ 
+
+ ------------------------------------------------->
+ <div class="card bg-faded p-2" style="border-bottom-left-radius:0px; border-bottom-right-radius:0px">
+ <!--
+ → go to fontawesome.com for more icon options!
+ → replace [fa-user]
+ -->
+ <div class="justify-content-between mt-1 mx-1">
+    <span>
+        
+        
+        <i class="far fa-user fa-lg fa-fw"></i>
+        
+        
+    </span>
+    <span>
+        <span class="fa-stack">
+            <i class="far fa-square fa-fw fa-stack-2x"></i>
+            <i class="far fa-times fa-fw fa-stack-1x text-danger"></i>
+        </span>
+        
+        <span class="fa-stack">
+            <i class="far fa-square fa-fw fa-stack-2x"></i>
+            <i class="far fa-window-minimize fa-fw fa-stack-1x text-warning"></i>
+        </span>
+        
+        <span class="fa-stack">
+            <i class="far fa-square fa-fw fa-stack-2x"></i>
+            <i class="far fa-window-maximize fa-fw fa-stack-1x text-success"></i>
+        </span>
+    </span>
+ </div>
+ </div>
+ <!------------------------------------------------
+ 
+ 
+                 BACKGROUND
+ 
+
+ ------------------------------------------------->
+ <div class="card border-top-0" style="border-top-left-radius:0px; border-top-right-radius:0px">
+ <!--
+ → remove [background-repeat:no-repeat;] if your bg is tiled!
+ -->
+ <div class="p-md-5 p-4 rounded bg-primary" style="background-repeat:no-repeat;
+ 
+ background-image:url(IMG_URL_HERE);
+ 
+ background-size:cover;
+ background-position:center;
+ background-attachment:scroll;
+ 
+ border-top-left-radius:0px;
+ border-top-right-radius:0px;">
+ <div class="row no-gutters mx-auto" style="max-width:800px">
+ <!------------------------------------------------
+ 
+ 
+                 BASIC INFO
+ 
+
+ ------------------------------------------------->
+ <div class="col-lg-4 col-md-6 col-sm-7 col-9 mx-auto p-1">
+ <div class="card border-0 h-100 shadow">
+    
+    
+    <!-- NAV BUTTONS
+    ---------------------------------------------->
+    <!--
+    → on mobile view, the text will appear as icons
+    → this section does not support more than two tabs
+    -->
+    <div class="card-header bg-faded text-uppercase">
+    <ul class="nav nav-tabs card-header-tabs nav-justified" style="letter-spacing:1px;">
+        <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#windowone">
+            <span class="hidden-xs-down justify-content-between">
+                <span class="hidden-xs-down">Profile</span>
+                <span class="hidden-xs-down"><i class="fal fa-times"></i></span>
+            </span>
+            <span class="hidden-sm-up justify-content-center p-1">
+                <i class="fas fa-user"></i>
+            </span>
+        </a>
+        </li>
+        
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#windowtwo">
+            <span class="hidden-xs-down justify-content-between">
+                <span>Stats</span>
+                <span><i class="fal fa-times"></i></span>
+            </span>
+            <span class="hidden-sm-up justify-content-center p-1">
+                <i class="fas fa-chart-bar"></i>
+            </span>
+        </a>
+        </li>
+    </ul>
+    </div>
+    
+    
+    <!-- AVATAR
+    ---------------------------------------------->
+    <!--
+    → remove rounded-circle if you'd like a squared icon
+    → square images fit best, better if character is the focus
+    -->
+    <div class="mx-auto p-3">
+        <img class="p-1 bg-faded rounded-circle img-thumbnail"
+        
+        
+            src="https://file.toyhou.se/images/7745356_UbxFaTbtSE8Egg6.png"
+        
+        
+        style="object-fit:cover; max-height:160px; width:160px">
+    </div>
+    <div class="tab-content">
+    
+    
+    <!-- BASIC INFO
+    ---------------------------------------------->
+    <!--
+    → don't like the new content labels?  delete them!
+    → or delete the icons, as long as one of them stays :]
+    -->
+    <div class="tab-pane active show" id="windowone">
+    <div class="px-3 pb-2">
+    <div class="text-muted table-responsive" style="height:200px">
+        
+        <div class="d-flex justify-content-between mb-2">
+            <div class="text-body text-uppercase font-italic" style="letter-spacing:1px"><i class="far fa-pen-line fa-fw mr-1"></i> <span class="hidden-xs-down">Name</span></div>
+            <div class="text-right">content</div>
+        </div>
+        
+        <div class="d-flex justify-content-between mb-2">
+            <div class="text-body text-uppercase font-italic" style="letter-spacing:1px"><i class="far fa-calendar-alt fa-fw mr-1"></i> <span class="hidden-xs-down">Age</span></div>
+            <div class="text-right">content</div>
+        </div>
+        
+        <div class="d-flex justify-content-between mb-2">
+            <div class="text-body text-uppercase font-italic" style="letter-spacing:1px"><i class="far fa-venus-mars fa-fw mr-1"></i> <span class="hidden-xs-down">Gender</span></div>
+            <div class="text-right">content</div>
+        </div>
+        
+        <div class="d-flex justify-content-between mb-2">
+            <div class="text-body text-uppercase font-italic" style="letter-spacing:1px"><i class="far fa-comments-alt fa-fw mr-1"></i> <span class="hidden-xs-down">Pronouns</span></div>
+            <div class="text-right">con / tent</div>
+        </div>
+        
+        <div class="d-flex justify-content-between mb-2">
+            <div class="text-body text-uppercase font-italic" style="letter-spacing:1px"><i class="far fa-heart fa-fw mr-1"></i> <span class="hidden-xs-down">Orient.</span></div>
+            <div class="text-right">content</div>
+        </div>
+        
+        <div class="d-flex justify-content-between mb-2">
+            <div class="text-body text-uppercase font-italic" style="letter-spacing:1px"><i class="far fa-dna fa-fw mr-1"></i> <span class="hidden-xs-down">Species</span></div>
+            <div class="text-right">or race</div>
+        </div>
+        
+        <div class="d-flex justify-content-between mb-2">
+            <div class="text-body text-uppercase font-italic" style="letter-spacing:1px"><i class="far fa-paperclip fa-fw mr-1"></i> <span class="hidden-xs-down">Job</span></div>
+            <div class="text-right">content</div>
+        </div>
+        
+    </div>
+    </div>
+    </div>
+    
+    
+    <!-- PERSONALITY STATS
+    ---------------------------------------------->
+    <!--
+    → change the number in [width:50%] to your desired percentage [0% to 100%]
+    → you can also change the colours in response to the number for fun!!
+    
+      → bg-success: 70% - 100%
+      → bg-warning: 31% - 69%
+      → bg-danger : 0% - 30%
+    
+    -->
+    <div class="tab-pane" id="windowtwo">
+    <div class="my-auto mx-3 text-uppercase font-italic" style="letter-spacing:1px; height:208px">
+        
+        
+        <!-- CHARISMA -->
+        <div class="row no-gutters mb-1">
+            <div class="col-2 text-center p-1">
+                <div class="text-uppercase">CHA</div>
+            </div>
+            <div class="col-10 p-1 pl-3 my-auto">
+            <div class="progress">
+                <div class="progress-bar bg-success" style="
+                    
+                    width:50%;
+                    
+                height:4px;"></div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- CONFIDENCE -->
+        <div class="row no-gutters mb-1">
+            <div class="col-2 text-center p-1">
+                <div class="text-uppercase">con</div>
+            </div>
+            <div class="col-10 p-1 pl-3 my-auto">
+            <div class="progress">
+                <div class="progress-bar bg-success" style="
+                    
+                    
+                    width:50%;
+                    
+                    
+                height:4px;"></div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- INTELLIGENCE -->
+        <div class="row no-gutters">
+            <div class="col-2 text-center p-1">
+                <div class="text-uppercase">int</div>
+            </div>
+            <div class="col-10 p-1 pl-3 my-auto">
+            <div class="progress">
+                <div class="progress-bar bg-warning" style="
+                    
+                    
+                    width:50%;
+                    
+                    
+                height:4px;"></div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- WISDOM -->
+        <div class="row no-gutters mb-1">
+            <div class="col-2 text-center p-1">
+                <div class="text-uppercase">wis</div>
+            </div>
+            <div class="col-10 p-1 pl-3 my-auto">
+            <div class="progress">
+                <div class="progress-bar bg-warning" style="
+                    
+                    
+                    width:50%;
+                    
+                    
+                height:4px;"></div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- EMPATHY -->
+        <div class="row no-gutters mb-1">
+            <div class="col-2 text-center p-1">
+                <div class="text-uppercase">emp</div>
+            </div>
+            <div class="col-10 p-1 pl-3 my-auto">
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="
+                    
+                    
+                    width:50%;
+                    
+                    
+                height:4px;"></div>
+            </div>
+            </div>
+        </div>
+        
+        <!-- HUMOUR -->
+        <div class="row no-gutters">
+            <div class="col-2 text-center p-1">
+                <div class="text-uppercase">hum</div>
+            </div>
+            <div class="col-10 p-1 pl-3 my-auto">
+            <div class="progress">
+                <div class="progress-bar bg-danger" style="
+                    
+                    
+                    width:50%; 
+                    
+                    
+                height:4px;"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+ </div>
+ </div>
+ <!------------------------------------------------
+ 
+ 
+                 PROFILE CONTENT
+ 
+
+ ------------------------------------------------->
+ <div class="col-lg-8 p-1">
+ <div class="card border-0 h-100 shadow">
+    
+    
+    <!-- TAB BUTTONS
+    ---------------------------------------------->
+    <!--
+    → on mobile view, the text will appear as icons
+    → if you know what you're doing, you could probably add about two more tabs
+    -->
+    <div class="card-header bg-faded text-uppercase">
+    <ul class="nav nav-tabs card-header-tabs nav-justified" style="letter-spacing:1px;">
+        
+        
+        <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#windowthree">
+            <span class="hidden-xs-down justify-content-between">
+                <span class="hidden-xs-down">About</span>
+                <span class="hidden-xs-down"><i class="fal fa-times"></i></span>
+            </span>
+            <span class="hidden-sm-up justify-content-center p-1">
+                <i class="fas fa-heart"></i>
+            </span>
+        </a>
+        </li>
+        
+        
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#windowfour">
+            <span class="hidden-xs-down justify-content-between">
+                <span class="hidden-xs-down">Misc.</span>
+                <span class="hidden-xs-down"><i class="fal fa-times"></i></span>
+            </span>
+            <span class="hidden-sm-up justify-content-center p-1">
+                <i class="fas fa-question-circle"></i>
+            </span>
+        </a>
+        </li>
+        
+        
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#windowfive">
+            <span class="hidden-xs-down justify-content-between">
+                <span class="hidden-xs-down">Story</span>
+                <span class="hidden-xs-down"><i class="fal fa-times"></i></span>
+            </span>
+            <span class="hidden-sm-up justify-content-center p-1">
+                <i class="fas fa-books"></i>
+            </span>
+        </a>
+        </li>
+        
+        
+        <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#windowsix">
+            <span class="hidden-xs-down justify-content-between">
+                <span class="hidden-xs-down">Links</span>
+                <span class="hidden-xs-down"><i class="fal fa-times"></i></span>
+            </span>
+            <span class="hidden-sm-up justify-content-center p-1">
+                <i class="fas fa-link"></i>
+            </span>
+        </a>
+        </li>
+        
+        
+    </ul>
+    </div>
+    <div class="tab-content table-responsive">
+    
+    
+    <!-- ABOUT SECTION
+    ---------------------------------------------->
+    <div class="tab-pane active show" id="windowthree">
+    <div class="p-3" style="height:400px; overflow:auto">
+        
+        
+        <!------ ADJECTIVES ------>
+        <div class="mt-1 text-center text-uppercase font-italic" style="letter-spacing:1px">
+            positive . neutral . negative
+        </div>
+        <hr class="mt-2 mb-3 w-50">
+        
+        
+        <!------ SUMMARY ------>
+        <div class="mb-4 p-3 bg-faded text-muted">
+            <p>
+                <b>bold.</b>
+                <i>italised.</i>
+                <u>underlined.</u>
+                <s>strikeout.</s>
+                <a href="#">link.</a>
+            </p>
+            
+            <div class="blockquote">A quote here, if you like.</div>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a felis molestie, porttitor est eget, euismod mauris. Integer fermentum est vitae dui pretium fermentum.</p>
+            
+        </div>
+        
+        <!------ PREFERENCES ------>
+        <div class="row no-gutters m-n2">
+            
+            <div class="col-sm-6 p-2">
+                <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                    Likes
+                </div><hr class="my-2">
+                <ul class="text-muted pl-4 mb-0">
+                    
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    
+                </ul>
+            </div>
+            
+            
+            <div class="col-sm-6 p-2">
+                <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                    Dislikes
+                </div><hr class="my-2">
+                <ul class="text-muted pl-4 mb-0">
+                    
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    <!-- TRIVIA SECTION
+    ---------------------------------------------->
+    <div class="tab-pane" id="windowfour">
+    <div class="p-3" style="height:400px; overflow:auto">
+        
+        
+        <!------ COLOUR PALLETE ------>
+        <!--
+        → the last one is reserved for accents and/or eye colours
+        → tho you don't have to follow and delete the [ml-2] to remove the spacing
+        -->
+        <div class="mt-1 mb-3 p-2 bg-faded row no-gutters" style="border-radius:2px; overflow:hidden; height:35px">
+            
+            <div class="col" style="background-color:#fff"></div>
+            <div class="col" style="background-color:#999"></div>
+            <div class="col" style="background-color:#777"></div>
+            <div class="col" style="background-color:#555"></div>
+            
+            <div class="ml-2 col" style="background-color:#333"></div>
+            
+        <!-- add/delete above THIS line! -->
+        </div>
+        <div class="row no-gutters m-n2">
+            
+            
+            <!-- DESIGN NOTES -->
+            <div class="col-12 p-2">
+                <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                    Design Notes
+                </div><hr class="my-2">
+                <ul class="text-muted pl-4 mb-0">
+                    
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    
+                </ul>
+            </div>
+            
+            
+            <!-- TRIVIA AND FUNFACTS -->
+            <div class="col-sm-6 p-2">
+                <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                    Trivia
+                </div><hr class="my-2">
+                <ul class="text-muted pl-4 mb-0">
+                    
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    
+                </ul>
+            </div>
+            
+            
+            <!-- LIKELY TO (IDK I COULDN'T THINK OF ANYTHING TO ADD HERE TBH) -->
+            <div class="col-sm-6 p-2">
+                <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                    Likely to
+                </div><hr class="my-2">
+                <ul class="text-muted pl-4 mb-0">
+                    
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    
+                </ul>
+            </div>
+            
+            
+        <!-- add/delete rows above THIS line! -->
+        </div>
+    </div>
+    </div>
+    
+    
+    <!-- STORY SECTION
+    ---------------------------------------------->
+    <div class="tab-pane" id="windowfive">
+    <div class="p-3" style="height:400px; overflow:auto">
+        
+        <!------ ONE ------>
+        <div class="first mb-3">
+            <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                Subheading 1
+            </div>
+            <hr class="my-2 mb-3 w-50">
+            <div class="text-muted bg-faded rounded p-3">
+                
+                <p>Nulla tempus enim a venenatis rhoncus. Pellentesque venenatis egestas eleifend. Pellentesque eu mauris in mauris cursus egestas eu id velit. Curabitur condimentum ante enim, volutpat malesuada nisl aliquet id.</p>
+                <p>Nullam congue elementum felis id sollicitudin. Nunc eros neque, sollicitudin ac tempor a, fermentum a mauris. Duis dolor ex, maximus at accumsan at, pretium at nisi. Proin rutrum justo a nisi consectetur tincidunt. Ut a est diam. Integer vehicula ut velit et pulvinar.</p>
+                
+            </div>
+        </div>
+        
+        
+        <!------ TWO ------>
+        <div class="second mb-3">
+            <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                Subheading 2
+            </div>
+            <hr class="my-2 mb-3 w-50">
+            <div class="text-muted bg-faded rounded p-3">
+                
+                <p>Fusce volutpat ornare congue. Mauris id eros imperdiet purus suscipit sollicitudin.</p>
+                <p>Donec volutpat dolor sit amet erat sodales, nec viverra leo gravida. Morbi tincidunt tempus mi, nec molestie sem molestie vestibulum. Curabitur quis lacinia neque.</p>
+                
+            </div>
+        </div>
+        
+        
+        <!------ THREE ------>
+        <div class="third mb-3">
+            <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                Subheading 3
+            </div>
+            <hr class="my-2 mb-3 w-50">
+            <div class="text-muted bg-faded rounded p-3">
+                
+                <p>Integer venenatis ultricies malesuada. Aenean sit amet augue at quam convallis fermentum sed sed elit. Morbi sit amet odio mi. Phasellus nec sem justo. Phasellus mollis a augue nec eleifend. Nulla at suscipit lorem. Sed ut leo dolor. Vestibulum non blandit nisl, in interdum lectus.</p>
+                <p>Nam porta scelerisque ullamcorper. Maecenas consequat vel quam quis dapibus. Nullam ullamcorper enim ut tortor convallis, in suscipit dolor eleifend. Integer scelerisque, nisi sit amet auctor gravida, neque enim rutrum urna, nec ullamcorper turpis eros blandit ipsum.</p>
+                
+            </div>
+        </div>
+        
+        
+        <!-- add/delete above THIS line! -->
+        <!------ TLDR ------>
+        <div class="last mb-3">
+            <div class="text-center text-uppercase font-italic" style="letter-spacing:1px">
+                TLDR
+            </div>
+            <hr class="my-2 mb-3 w-50">
+            <div class="text-muted bg-faded rounded p-3">
+            <ul class="pl-4 mb-0">
+                
+                <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</li>
+                <li>Maecenas sed neque aliquet, iaculis orci rutrum, posuere sapien.</li>
+                <li>Donec sit amet commodo magna.</li>
+                <li>Sed fringilla nunc vitae arcu scelerisque, in euismod nisl lobortis. Nullam eget nisi tincidunt, consectetur mi eget, ultrices augue.</li>
+                
+            </ul>
+        </div>
+        </div>
+        
+    <!-- add/delete above THIS line! -->
+    </div>
+    </div>
+    
+    
+    
+    <!-- LINKS SECTION
+    ---------------------------------------------->
+    <!--
+    → for every even relation number, add [flex-row-reverse] !
+    -->
+    <div class="tab-pane" id="windowsix">
+    <div class="p-3" style="height:400px;">
+        
+        
+        <!------ ONE ------>
+        <div class="row no-gutters mb-3">
+            
+            <!-- ICON -->
+            <div class="col-md-4 col-6 mx-auto p-1">
+                <div class="text-center mb-3">
+                    <img class="p-1 bg-faded rounded-circle img-thumbnail"
+                    
+                    
+                    src="https://file.toyhou.se/images/7745356_UbxFaTbtSE8Egg6.png"
+                    
+                    
+                    style="object-fit:cover; max-height:160px; width:160px">
+                </div>
+            </div>
+            
+            <!-- SUMMARY -->
+            <div class="col-md-8 p-1">
+            <div class="p-3 card bg-faded border-0 my-auto" style="min-height:160px;">
+                <div class="d-flex justify-content-between align-auto">
+                    
+                    <a class="text-uppercase my-auto" href="LINK_HERE">Name</a>
+                    <span class="text-right">relation</span>
+                    
+                </div>
+                <hr class="w-100 mt-1 mb-2">
+                <div class="text-muted" style="; overflow:auto">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ipsum lorem, tincidunt non risus eget, fermentum aliquet mi.</p>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        
+        <!------ TWO ------>
+        <div class="row no-gutters flex-row-reverse mb-3">
+            
+            <!-- ICON -->
+            <div class="col-md-4 col-6 mx-auto p-1">
+                <div class="text-center mb-3">
+                    <img class="p-1 bg-faded rounded-circle img-thumbnail"
+                    
+                    
+                    src="https://file.toyhou.se/images/7745356_UbxFaTbtSE8Egg6.png"
+                    
+                    
+                    style="object-fit:cover; max-height:160px; width:160px">
+                </div>
+            </div>
+            
+            <!-- SUMMARY -->
+            <div class="col-md-8 p-1">
+            <div class="p-3 card bg-faded border-0 my-auto" style="min-height:160px;">
+                <div class="d-flex justify-content-between align-auto">
+                    
+                    <a class="text-uppercase my-auto" href="LINK_HERE">Name</a>
+                    <span class="text-right">relation</span>
+                    
+                </div>
+                <hr class="w-100 mt-1 mb-2">
+                <div class="text-muted" style="; overflow:auto">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ipsum lorem, tincidunt non risus eget, fermentum aliquet mi.</p>
+                    <p>Duis sollicitudin ornare tincidunt. Etiam pharetra nulla eget pretium tempus.  Mauris sit amet quam velit. Curabitur ligula erat, feugiat ullamcorper posuere sed, rhoncus a dolor.</p>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        
+        <!------ THREE ------>
+        <div class="row no-gutters mb-3">
+            
+            <!-- ICON -->
+            <div class="col-md-4 col-6 mx-auto p-1">
+                <div class="text-center mb-3">
+                    <img class="p-1 bg-faded rounded-circle img-thumbnail"
+                    
+                    
+                    src="https://file.toyhou.se/images/7745356_UbxFaTbtSE8Egg6.png"
+                    
+                    
+                    style="object-fit:cover; max-height:160px; width:160px">
+                </div>
+            </div>
+            
+            <!-- SUMMARY -->
+            <div class="col-md-8 p-1">
+            <div class="p-3 card bg-faded border-0 my-auto" style="min-height:160px;">
+                <p class="d-flex justify-content-between align-auto">
+                    
+                    <a class="text-uppercase my-auto" href="LINK_HERE">Name</a>
+                    <span class="text-right">relation</span>
+                    
+                </p>
+                <hr class="w-100 mt-1 mb-2">
+                <div class="text-muted" style="; overflow:auto">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non.</p>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        
+        <!------ FOUR ------>
+        <div class="row no-gutters flex-row-reverse mb-3">
+            
+            <!-- ICON -->
+            <div class="col-md-4 col-6 mx-auto p-1">
+                <div class="text-center mb-3">
+                    <img class="p-1 bg-faded rounded-circle img-thumbnail"
+                    
+                    
+                    src="https://file.toyhou.se/images/7745356_UbxFaTbtSE8Egg6.png"
+                    
+                    
+                    style="object-fit:cover; max-height:160px; width:160px">
+                </div>
+            </div>
+            
+            <!-- SUMMARY -->
+            <div class="col-md-8 p-1">
+            <div class="p-3 card bg-faded border-0 my-auto" style="min-height:160px;">
+                <p class="d-flex justify-content-between align-auto">
+                    
+                    <a class="text-uppercase my-auto" href="LINK_HERE">Name</a>
+                    <span class="text-right">relation</span>
+                    
+                </p>
+                <hr class="w-100 mt-1 mb-2">
+                <div class="text-muted" style="; overflow:auto">
+                    
+                    <p>Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque</p>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        
+    <!-- add/delete above THIS line! -->
+    </div>
+    </div>
+    </div>
+ </div>
+ </div>
+ <!------------------------------------------------
+ 
+ 
+                 LA CREDITS
+ 
+
+ ------------------------------------------------->
+ <div class="col-12 p-1">
+ <div class="bg-faded rounded border-0 p-2 px-3 text-monospace small text-muted text-right shadow">
+    
+    
+    <!-- ME, DON'T REMOVE -->
+    <a href="https://toyhou.se/6387419." class="faded text-reset font-italic" style="text-decoration:none">code by jiko</a>
+    
+    
+    <span class="mx-1">|</span>
+    
+    
+    <!-- BACKGROUND CREDITS -->
+    <a href="https://unsplash.com/photos/wotMaQFmlBM"
+    class="faded text-reset font-italic" style="text-decoration:none">
+        
+        <i class="far fa-image fa-fw"></i>
+        
+    </a>
+    
+    
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div><!-- code ends -->
