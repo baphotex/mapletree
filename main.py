@@ -26,7 +26,7 @@ def index():
         except TypeError as e: 
             string = "Uh oh! Those weren't the right kind of numbers :(" 
         return render_template("maple_home.html", response = string)
-    return render_template("maple_home.html", response = '')
+    return render_template("maple_home.html", response = 'Cute')
     
 @app.route('/favicon.ico')
 def favicon():
