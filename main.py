@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, send_from_directory
 import os
 
 app = Flask(__name__,  static_folder='static')
@@ -9,6 +9,10 @@ app.config['FAVICON'] = 'maple.ico'
 def index():
     return render_template("home_cute.html")
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory('maple.ico')
+    
 @app.route('/bio') 
 def bio():
     return render_template("bio_cute.html") 
