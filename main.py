@@ -10,7 +10,8 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
     f"There are {z} episodes left."
     f"It will take {z*24/60} to {z*30/60} hours to finish watching."
     f"It will take {round(z*24/60/24,2)} to {round(z*30/60/24,2)} days to finish watching"
-    f"Based on current habits, it will take {round(z/high,2)} to {round(z/low,2)} days to finish.") 
+    f"Based on current habits, it will take {round(z/high,2)} to {round(z/low,2)} days to finish."
+    ) 
     return string 
 
 @app.route('/', methods =["GET", "POST"])
