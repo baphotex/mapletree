@@ -18,13 +18,13 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
 def index():
     if request.method == "GET":
         return render_template("maple_home.html", response = 'Cute')
-    start = request.form.get("startep")
-    end = request.form.get("endep")
-    try: 
+    try:    
+        start = request.form.get("startep")
+        end = request.form.get("endep")
         start = int(start)
         end = int(end)
         string = ep(start,end) 
-    except TypeError as e: 
+    except:
         string = "Uh oh! Those weren't the right kind of numbers :(" 
     return render_template("maple_home.html", response = string)
     
