@@ -20,6 +20,21 @@ body {
 		margin: 0;
 		background-image: linear-gradient(rgb(251, 220, 220, 0.15), rgb(251, 220, 220, 0.15)), url('/static/images/cinnamonbird_cairoovercoat_roxy2alt.png');
 	}
+		    .image-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #124354;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .image-button img {
+      height: 20px;
+      margin-right: 10px;
+    }
 }
 	</style>
 	<link rel="icon" type="image/png" href="https://neothemes.neocities.org/images/favicon.gif" />
@@ -75,8 +90,10 @@ body {
 							<label for="lname">last EP:</label>
 							<input type="text" style="width: 20px" id="endep" name="endep">
 							<br>
-							<button type="submit">submit
-								<3 </button>
+							<button class="image-button" type="submit">
+    								<img src="https://88by31.neocities.org/misc/click.gif" alt="Image">
+    								<span>submit <3</span></button>
+				
 						</form method="post">
 						<p>{{ response }} </p>
 					</div>
