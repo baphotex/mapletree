@@ -7,17 +7,17 @@ def ep(start, end, ep_display = False, low = 12, high = 25):
     y = list(range(start,end+1))
     z = len(y)
     string = (
-    f"There are  {z} episodes left.\n"
-    f"It will take {z*24/60} to {z*30/60} hours to finish watching.\n"
-    f"That's only {round(z*24/60/24,2)} to {round(z*30/60/24,2)} days! \n"
-    f"Based on kasey's habits, it will take {round(z/high,2)} to {round(z/low,2)} days to complete. Goodluck!\n"
+    f"there are  {z} episodes left.\n"
+    f"it will take {z*24/60} to {z*30/60} hours to finish watching.\n"
+    f"that's only {round(z*24/60/24,2)} to {round(z*30/60/24,2)} days! \n"
+    f"based on kasey's habits, it will take {round(z/high,2)} to {round(z/low,2)} days to complete. goodluck!\n"
     ) 
     return string 
 
 @app.route('/', methods =["GET", "POST"])
 def index():
     if request.method == "GET":
-        return render_template("maple_home.html", response = 'Cute')
+        return render_template("maple_home.html", response = '^_^')
     try:    
         start = request.form.get("startep")
         end = request.form.get("endep")
