@@ -4,7 +4,7 @@ body {
   font-family: monospace;
   padding: 0;
   margin: 0;
-  background: linear-gradient(rgb(251, 220, 220, 0.15), rgb(251, 220, 220, 0.15)), url("cinnamonbird_cairoovercoat_roxy2alt.png");
+  background: linear-gradient(rgb(251, 220, 220, 0.15), rgb(251, 220, 220, 0.15)), url('../images/cinnamonbird_cairoovercoat_roxy2alt.png');
   }
   
 .wrapper {
