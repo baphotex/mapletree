@@ -49,7 +49,7 @@ def moc():
     return render_template("review_moc.html") 
 
 @app.route('/reviews/marriage_of_convenience2') 
-def moc():
+def moc2():
     return render_template("review_moc_2.html") 
 
 
