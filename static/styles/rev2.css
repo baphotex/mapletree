@@ -49,6 +49,9 @@ body {
   
 .links {
   margin-top: 1em;
+  width: 690px;
+  margin-left: 95px;
+  margin-right: 95px;
   }
   
 .title { /*suppress title, since we're putting the title as text in the header box*/
