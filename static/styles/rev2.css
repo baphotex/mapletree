@@ -15,12 +15,13 @@ body {
   }
   
 .sidebar-left, .sidebar-right {
-  width: 175px;
+  width: 70px;
   }
   
 .main {
   width: 690px;
-  margin-left: 190px;
+  margin-left: 95px;
+  margin-right: 95px;
   }
   
 .sidebar-left {
