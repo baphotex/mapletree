@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__,  static_folder='static')
 
-def ep(start, end, ep_display = False, low = 12, high = 25):
+def ep(start, end, ep_display = False, low = 8, high = 16):
     y = list(range(start,end+1))
     z = len(y)
     string = (
