@@ -49,7 +49,7 @@ def moc():
     return render_template("review_moc_2.html") 
 
 @app.route('/vent') 
-def moc():
+def vent():
     return render_template("vent.html") 
 
 
