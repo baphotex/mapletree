@@ -40,7 +40,7 @@ body {
   
 .header {
   border: 3px double #333;
-  background: linear-gradient(rgb(140, 153, 110, 0.15), rgb(,232, 243, 208, 0.15));
+  background: linear-gradient(rgb(140, 153, 110, 0.15), rgb(232, 243, 208, 0.15));
   text-align: center;
   margin-top: 15px;
   top: 0;
