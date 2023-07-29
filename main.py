@@ -48,6 +48,10 @@ def blog():
 def moc():
     return render_template("review_moc_2.html") 
 
+@app.route('/vent') 
+def moc():
+    return render_template("vent.html") 
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("PORT", default=5000))
