@@ -23,7 +23,7 @@ def index():
         end = request.form.get("endep")
         start = int(start)
         end = int(end)
-        if end > 1000:
+        if end > 10_000:
             string = "Too many episodes gyabo!" 
             return render_template("maple_home.html", response = string)
         string = ep(start,end) 
