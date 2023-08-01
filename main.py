@@ -23,6 +23,9 @@ def index():
         end = request.form.get("endep")
         start = int(start)
         end = int(end)
+        if end > 1000:
+            string = "Too many episodes gyabo!" 
+            break 
         string = ep(start,end) 
     except:
         string = "Uh oh! Those weren't the right kind of numbers :(" 
