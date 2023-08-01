@@ -25,7 +25,7 @@ def index():
         end = int(end)
         if end > 1000:
             string = "Too many episodes gyabo!" 
-            break 
+            return render_template("maple_home.html", response = string)
         string = ep(start,end) 
     except:
         string = "Uh oh! Those weren't the right kind of numbers :(" 
