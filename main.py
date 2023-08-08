@@ -52,7 +52,7 @@ def moc():
     return render_template("review_moc_2.html") 
 
 @app.route('/reviews/dear_door') 
-def moc():
+def dear():
     return render_template("review_dear_door.html") 
 
 
