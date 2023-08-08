@@ -51,6 +51,11 @@ def blog():
 def moc():
     return render_template("review_moc_2.html") 
 
+@app.route('/reviews/dear_door') 
+def moc():
+    return render_template("review_dear_door.html") 
+
+
 @app.route('/vent') 
 def vent():
     return render_template("vent.html") 
